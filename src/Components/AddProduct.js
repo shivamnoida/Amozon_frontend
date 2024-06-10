@@ -17,6 +17,7 @@ function AddProduct() {
         setImageURL("");
         setPrice(0);
         setRating(0);
+        navigate("/");
       })
       .catch((error) => alert(error.message));
   };

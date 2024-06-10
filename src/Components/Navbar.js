@@ -21,6 +21,7 @@ function Navbar() {
     // Implement the functionality to add a new item here
     console.log("Add new item functionality");
     navigate("/addproduct");
+    //  navigate("/");
   };
 
   return (
